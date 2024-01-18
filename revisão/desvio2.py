@@ -2,6 +2,7 @@
 
 final_placa = input("Digite o numero final da placa do teu carro: ")
 # aqui usamos os sinais de comparação, não pra atribuir a valor mas sim em comparar
+#se final de placa for semelhante a 1 ou final de placa for semelhante a 2
 if(final_placa == "1" or final_placa == "2"):
     print("Seu carro se enquadra na zona de rodizio - Segunda-Feira")
 elif(final_placa == "3" or final_placa == "4"):
