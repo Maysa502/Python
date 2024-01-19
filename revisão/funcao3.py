@@ -2,7 +2,7 @@
 # alias é tipo um apelido só colocar um 'as'
 # import funcao2 as fn - td o arquivo
 
-import funcao2 from soma as sm
+from funcao2 import soma as sm
 
 n = [1,2,3,4,5]
 print(sm(n))
